@@ -1,0 +1,348 @@
+
+*** Running vivado
+    with args -log project_final.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source project_final.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source project_final.tcl -notrace
+Command: synth_design -top project_final -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 32040 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 948.410 ; gain = 234.641
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'project_final' [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/project_final.vhd:25]
+	Parameter frequencies bound to: 324'b000000000010110000001010000000000000010011100111100010000000000010000011111110000000000000001110101100100100000000000001101000101111110000000000010111010101000110000000000010100110010001100000000000010010100001000100000000000010001011110100010000000000001111100100100000000000000001101110111110010000000000001100010110111100 
+INFO: [Synth 8-3491] module 'key' declared at 'C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/key.vhd:4' bound to instance 'key0' of component 'key' [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/project_final.vhd:48]
+INFO: [Synth 8-638] synthesizing module 'key' [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/key.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'key' (1#1) [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/key.vhd:13]
+INFO: [Synth 8-3491] module 'key' declared at 'C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/key.vhd:4' bound to instance 'key1' of component 'key' [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/project_final.vhd:49]
+INFO: [Synth 8-3491] module 'key' declared at 'C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/key.vhd:4' bound to instance 'key2' of component 'key' [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/project_final.vhd:50]
+INFO: [Synth 8-3491] module 'key' declared at 'C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/key.vhd:4' bound to instance 'key3' of component 'key' [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/project_final.vhd:51]
+INFO: [Synth 8-3491] module 'key' declared at 'C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/key.vhd:4' bound to instance 'key4' of component 'key' [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/project_final.vhd:52]
+INFO: [Synth 8-3491] module 'key' declared at 'C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/key.vhd:4' bound to instance 'key5' of component 'key' [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/project_final.vhd:53]
+INFO: [Synth 8-3491] module 'key' declared at 'C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/key.vhd:4' bound to instance 'key6' of component 'key' [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/project_final.vhd:54]
+INFO: [Synth 8-3491] module 'key' declared at 'C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/key.vhd:4' bound to instance 'key7' of component 'key' [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/project_final.vhd:55]
+INFO: [Synth 8-3491] module 'key' declared at 'C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/key.vhd:4' bound to instance 'key8' of component 'key' [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/project_final.vhd:56]
+INFO: [Synth 8-3491] module 'key' declared at 'C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/key.vhd:4' bound to instance 'key9' of component 'key' [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/project_final.vhd:57]
+INFO: [Synth 8-3491] module 'key' declared at 'C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/key.vhd:4' bound to instance 'key10' of component 'key' [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/project_final.vhd:58]
+INFO: [Synth 8-3491] module 'key' declared at 'C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/key.vhd:4' bound to instance 'key11' of component 'key' [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/project_final.vhd:59]
+WARNING: [Synth 8-3919] null assignment ignored [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/project_final.vhd:110]
+INFO: [Synth 8-256] done synthesizing module 'project_final' (2#1) [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/sources_1/new/project_final.vhd:25]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1020.781 ; gain = 307.012
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1020.781 ; gain = 307.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1020.781 ; gain = 307.012
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1020.781 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/constrs_1/new/project_final_const.xdc]
+Finished Parsing XDC File [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/constrs_1/new/project_final_const.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.srcs/constrs_1/new/project_final_const.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/project_final_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/project_final_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1118.574 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1118.574 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1118.574 ; gain = 404.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1118.574 ; gain = 404.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1118.574 ; gain = 404.805
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'project_final'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                    down |                               01 |                               10
+                      up |                               10 |                               01
+                  iSTATE |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'project_final'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1118.574 ; gain = 404.805
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   6 Input      4 Bit       Adders := 1     
+	   5 Input      3 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
+	   3 Input      2 Bit       Adders := 1     
++---Registers : 
+	               27 Bit    Registers := 12    
+	               12 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 24    
++---Muxes : 
+	  12 Input     12 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module project_final 
+Detailed RTL Component Info : 
++---Adders : 
+	   6 Input      4 Bit       Adders := 1     
+	   5 Input      3 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
+	   3 Input      2 Bit       Adders := 1     
++---Registers : 
+	               27 Bit    Registers := 12    
+	               12 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	  12 Input     12 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module key 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1118.574 ; gain = 404.805
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1118.574 ; gain = 404.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1118.574 ; gain = 404.805
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1131.355 ; gain = 417.586
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1137.688 ; gain = 423.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1137.688 ; gain = 423.918
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1137.688 ; gain = 423.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1137.688 ; gain = 423.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1137.688 ; gain = 423.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1137.688 ; gain = 423.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   204|
+|3     |LUT1   |    13|
+|4     |LUT2   |   630|
+|5     |LUT3   |    18|
+|6     |LUT4   |    19|
+|7     |LUT5   |    20|
+|8     |LUT6   |   139|
+|9     |FDRE   |   693|
+|10    |IBUF   |    15|
+|11    |OBUF   |    24|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |  1776|
+|2     |  key0   |key    |    54|
+|3     |  key1   |key_0  |    51|
+|4     |  key10  |key_1  |    55|
+|5     |  key11  |key_2  |    54|
+|6     |  key2   |key_3  |    55|
+|7     |  key3   |key_4  |    54|
+|8     |  key4   |key_5  |    60|
+|9     |  key5   |key_6  |    56|
+|10    |  key6   |key_7  |    59|
+|11    |  key7   |key_8  |    53|
+|12    |  key8   |key_9  |    51|
+|13    |  key9   |key_10 |    58|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1137.688 ; gain = 423.918
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1137.688 ; gain = 326.125
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1137.688 ; gain = 423.918
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1148.730 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 204 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1148.734 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1148.734 ; gain = 723.578
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1148.734 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/colte/Documents/FIU/Classes/EEL4740/Final_Project/project_final/project_final.runs/synth_1/project_final.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file project_final_utilization_synth.rpt -pb project_final_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jul  7 13:31:18 2020...
